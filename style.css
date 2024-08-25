@@ -89,12 +89,14 @@ section{
     position: relative;
     background-color: var(--white);
     border: 1px solid gainsboro;
+    transition: all .8s ease;
+
 }
 
 .section{
     opacity: 0;
     transform: translateY(50px);
-    transition: all .8s ease;
+
 
 }
 
@@ -102,6 +104,11 @@ section{
     opacity: 1;
     transform: translateY(0px);
 
+}
+
+.sectionopacity{
+    opacity: 0;
+    
 }
 
 
@@ -417,6 +424,7 @@ section header nav ul a li::before{
         margin-top: var(--margin-top);
        position: relative;
         margin-top: 6rem;
+        padding-bottom: 1.2rem;
        
     }
 
@@ -431,7 +439,7 @@ section header nav ul a li::before{
         margin: 0 auto;
         padding: 20px;
         gap: 1rem;
-       
+        
         transition: all .5s ease-in-out;
         
     }

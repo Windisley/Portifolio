@@ -139,7 +139,6 @@ window.addEventListener("DOMContentLoaded", ()=>{
     
     })
 
-    const listlinks = document.querySelectorAll(".listlinks")
     const $section = document.querySelectorAll(".section")
     const section = document.querySelectorAll("section")
    
@@ -227,13 +226,15 @@ window.addEventListener("DOMContentLoaded", ()=>{
         iten.forEach((visible)=>{
           if(visible.isIntersecting){
             link4.classList.add("listlinks")
+            
           }else{
             link4.classList.remove("listlinks")
+
           }
         })
         
     },{
-        threshold: .2
+        threshold: .1
     })
     observefor.observe(sectionfor)
 
