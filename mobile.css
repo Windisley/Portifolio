@@ -142,7 +142,7 @@
 @media(max-width: 850px){
     .containerskills{
         width: 100%;
-        min-height: 100vh;
+        min-height: 100%;
         margin: 0 auto;
         display: grid;
         grid-template-columns:  repeat(3, 1fr);
@@ -180,7 +180,7 @@
  
     .containerskills{
      width: 100%;
-     min-height: 100vh;
+     min-height: 100%;
      margin: 0 auto;
      display: grid;
      grid-template-columns:  repeat(1, 1fr);
